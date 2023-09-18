@@ -1,6 +1,8 @@
 import mongoose from "mongoose";
 
-const mongoURL = 'mongodb://localhost:27017/StudentAssignAPP?directConnection=true'
+const mongoURL = 'mongodb+srv://rishirajshinde1610:rishirajshinde@1610@cluster0.qnerxdz.mongodb.net/?retryWrites=true&w=majority'
+
+
 export default async function connectDB(){
     try {
         const connect = mongoose.connect(mongoURL);

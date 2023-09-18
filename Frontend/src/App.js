@@ -2,11 +2,11 @@ import Navigationbar from './component/Navigationbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './component/Home';
-import ActiveLogin from './component/ActiveLogin';
-import Signup from './component/Signup';
 import Profile from './component/Profile';
 import ViewAssigment from './component/ViewAssigment';
 import Assigment from './component/Assigment';
+import ActiveLogin from './component/Account/ActiveLogin';
+import Signup from './component/Account/Signup';
 
 
 function App() {

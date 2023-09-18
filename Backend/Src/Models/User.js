@@ -7,9 +7,9 @@ const UserSchema=mongoose.Schema({
         unique:true,
         lowercase:true
     },
-    age:{
-        type:String,
-    },
+    // age:{
+    //     type:String,
+    // },
     password:{
         type:String,
         required:true,
